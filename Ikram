@@ -1,0 +1,132 @@
+org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+8ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1503420662239	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1503420662240	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1503420662241	addons.xpi	DEBUG	checkForChanges
+1503420662242	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Admin\\AppData\\Local\\Temp\\anonymous4226632200128659658webdriver-profile\\extensions\\fxdriver@googlecode.com","e":true,"v":"2.44.0","st":1503420650090,"mt":1503420650040}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"42.0","st":1502991221780,"mt":1446163995000}}}
+1503420662244	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1503420662261	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1503420662263	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Admin\\AppData\\Local\\Temp\\anonymous4226632200128659658webdriver-profile\\extensions\\fxdriver@googlecode.com","e":true,"v":"2.44.0","st":1503420650090,"mt":1503420650040}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"42.0","st":1502991221780,"mt":1446163995000}}}
+1503420662266	addons.xpi	DEBUG	No changes found
+1503420662282	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1503420662283	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1503420662283	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1503420662284	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1503420662285	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1503420662286	addons.manager	DEBUG	Starting provider: GMPProvider
+1503420662295	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1503420662296	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1503420662296	addons.manager	DEBUG	Starting provider: PluginProvider
+1503420662296	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1503420662297	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1503420662298	addons.manager	DEBUG	Completed startup sequence
+1503420662410	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\Admin\AppData\Local\Temp\anonymous4226632200128659658webdriver-profile\extensions.json
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1503420663053	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1503420663054	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1503420663055	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1503420663421	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1503420663422	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1503420663423	addons.xpi-utils	DEBUG	Successfully read XPI database
+1503420663592	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1503420663593	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1503420663593	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+JavaScript error: file:///C:/Users/Admin/AppData/Local/Temp/anonymous4226632200128659658webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js, line 11487: TypeError: this.server_ is undefined
+JavaScript error: chrome://fxdriver/content/server.js, line 38: NS_ERROR_XPC_CI_RETURNED_FAILURE: Component returned failure code: 0x80570015 (NS_ERROR_XPC_CI_RETURNED_FAILURE) [nsIJSCID.createInstance]
+JavaScript error: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.afb53ff18f093e84a458.js, line 6: SyntaxError: class is a reserved identifier
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at com.sample.maven_demo.FirefoxSample1.main(FirefoxSample1.java:11)
+Exception in thread "main" org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+8ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1503420662239	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1503420662240	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1503420662241	addons.xpi	DEBUG	checkForChanges
+1503420662242	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Admin\\AppData\\Local\\Temp\\anonymous4226632200128659658webdriver-profile\\extensions\\fxdriver@googlecode.com","e":true,"v":"2.44.0","st":1503420650090,"mt":1503420650040}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"42.0","st":1502991221780,"mt":1446163995000}}}
+1503420662244	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1503420662261	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1503420662263	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Admin\\AppData\\Local\\Temp\\anonymous4226632200128659658webdriver-profile\\extensions\\fxdriver@googlecode.com","e":true,"v":"2.44.0","st":1503420650090,"mt":1503420650040}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"42.0","st":1502991221780,"mt":1446163995000}}}
+1503420662266	addons.xpi	DEBUG	No changes found
+1503420662282	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1503420662283	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1503420662283	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1503420662284	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1503420662285	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1503420662286	addons.manager	DEBUG	Starting provider: GMPProvider
+1503420662295	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1503420662296	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1503420662296	addons.manager	DEBUG	Starting provider: PluginProvider
+1503420662296	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1503420662297	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1503420662298	addons.manager	DEBUG	Completed startup sequence
+1503420662410	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\Admin\AppData\Local\Temp\anonymous4226632200128659658webdriver-profile\extensions.json
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1503420663053	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1503420663054	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1503420663055	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1503420663421	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1503420663422	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1503420663423	addons.xpi-utils	DEBUG	Successfully read XPI database
+1503420663592	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1503420663593	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1503420663593	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+JavaScript error: file:///C:/Users/Admin/AppData/Local/Temp/anonymous4226632200128659658webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js, line 11487: TypeError: this.server_ is undefined
+JavaScript error: chrome://fxdriver/content/server.js, line 38: NS_ERROR_XPC_CI_RETURNED_FAILURE: Component returned failure code: 0x80570015 (NS_ERROR_XPC_CI_RETURNED_FAILURE) [nsIJSCID.createInstance]
+JavaScript error: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.afb53ff18f093e84a458.js, line 6: SyntaxError: class is a reserved identifier
+
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'Admin-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at com.sample.maven_demo.FirefoxSample1.main(FirefoxSample1.java:11)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+8ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1503420662239	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1503420662240	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1503420662241	addons.xpi	DEBUG	checkForChanges
+1503420662242	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Admin\\AppData\\Local\\Temp\\anonymous4226632200128659658webdriver-profile\\extensions\\fxdriver@googlecode.com","e":true,"v":"2.44.0","st":1503420650090,"mt":1503420650040}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"42.0","st":1502991221780,"mt":1446163995000}}}
+1503420662244	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1503420662261	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1503420662263	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Admin\\AppData\\Local\\Temp\\anonymous4226632200128659658webdriver-profile\\extensions\\fxdriver@googlecode.com","e":true,"v":"2.44.0","st":1503420650090,"mt":1503420650040}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"42.0","st":1502991221780,"mt":1446163995000}}}
+1503420662266	addons.xpi	DEBUG	No changes found
+1503420662282	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1503420662283	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1503420662283	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1503420662284	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1503420662285	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1503420662286	addons.manager	DEBUG	Starting provider: GMPProvider
+1503420662295	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1503420662296	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1503420662296	addons.manager	DEBUG	Starting provider: PluginProvider
+1503420662296	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1503420662297	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1503420662298	addons.manager	DEBUG	Completed startup sequence
+1503420662410	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\Admin\AppData\Local\Temp\anonymous4226632200128659658webdriver-profile\extensions.json
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1503420663053	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1503420663054	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1503420663055	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1503420663421	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1503420663422	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1503420663423	addons.xpi-utils	DEBUG	Successfully read XPI database
+1503420663592	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1503420663593	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1503420663593	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+JavaScript error: file:///C:/Users/Admin/AppData/Local/Temp/anonymous4226632200128659658webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js, line 11487: TypeError: this.server_ is undefined
+JavaScript error: chrome://fxdriver/content/server.js, line 38: NS_ERROR_XPC_CI_RETURNED_FAILURE: Component returned failure code: 0x80570015 (NS_ERROR_XPC_CI_RETURNED_FAILURE) [nsIJSCID.createInstance]
+JavaScript error: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.afb53ff18f093e84a458.js, line 6: SyntaxError: class is a reserved identifier
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	... 7 more
